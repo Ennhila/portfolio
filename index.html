@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Ennhila Ilyass | Terminal Website</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/colors.css">
+
+</head>
+
+<body data-theme="green">
+
+    <div id="intro"></div>
+    
+    <div id="main" style="opacity: 0;">
+        <div class="terminal" id="terminal">
+            <div id="commandLines"></div>
+            <div class="prompt" id="prompt">
+                <span class="user" id="promptUser"></span>@<span class="domain" id="promptDomain"></span>
+                <span class="directory" id="promptDir"></span>$
+                <input id="promptInput" autocapitalize="none" autocomplete="off" spellcheck="false" autofocus />
+            </div>
+            
+        </div>
+    </div>
+    
+    <noscript>
+        <strong>
+            I'm sorry but my website doesn't work properly without JavaScript enabled.
+            Please enable it to continue :]
+        </strong>
+    </noscript>
+
+    <script src="js/terminal.js"></script>
+    
+</body>
+
+</html>
